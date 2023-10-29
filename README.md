@@ -41,9 +41,20 @@ If you used any third-party assets that require attribution, list the creators w
 If you followed tutorials, include links to those here as well.
 
 
+Weather data is from 
+https://home.openweathermap.org/
+
+
 https://stackoverflow.com/questions/44177417/how-to-display-openweathermap-weather-icon
 
 https://openweathermap.org/weather-conditions
+
+
+https://www.codingnepalweb.com/weather-app-html-bootstrap-javascript/
+    By CodingNepal -June 9, 2023
+
+https://www.codingnepalweb.com/weather-app-project-html-javascript/
+
 
 ## License
 
