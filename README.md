@@ -40,6 +40,11 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
+
+https://stackoverflow.com/questions/44177417/how-to-display-openweathermap-weather-icon
+
+https://openweathermap.org/weather-conditions
+
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).

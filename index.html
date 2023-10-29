@@ -10,13 +10,101 @@
     <title>Variations in Earth's Low Level Atmosphere</title>
   </head>
 
-  <body>
+    <body>
+      <header>
+        <div class= "box">
+        <h1><strong>Variations in Earth's Low Level Atmosphere</strong></h1>
+      </header>
 
-    <header>
-      <h1>Variations in Earth's Low Level Atmosphere</h1>
-    </header>
+        <main class="container">
+          <div class="col-md-3 col-sm-12 search-column">
+            <section class="input-group mb-3">
+                <h2 class=" search-tile">City Name</h2>
+                <button class="btn btn-primary" id="search_btn">Search</button>
+                <div class="separetor"></div>
+            </div>
+            <div class="input-group mb-3">
+              <input
+              type="text"
+              class="form-control search-input"
+              placeholder="Type City Name"
+              aria-label="search"
+              aria-describedby="addon-wrapping"
+              id="search-city-name"
+            />
+            </div>
+            </section>
+            <div class="input-group mb-3">
+              <div class="card-header">
+                Previous Searches:
+                </div>
+                <ul class="list-group list-group-flush" id="storage">
+                </ul>
+            </div>
+        </div>
 
 
+            <section class="current_details">
+                <div class="details">
+                    <h2>City</h2>
+                    <p>Temperature: --/--</p>
+                    <p>Wind       : --/--</p>
+                    <p>Humidity   : --/--</p>
+                </div>
+                <div class="icon">
+                    <img src="./images/icon.png" alt="weather_icon" >
+                    <p>Sunny</p>
+                </div>
+            </section>
+
+
+            <section id="forecast">
+                <h2>5 Day Forecast</h2>
+                <div class="forecast_box">
+                        <ul class="forecast">
+                            <li>
+                                <h3>(Date)</h3>
+                                <div class="ficon">
+                                    <img src="./images/icon.png" alt="weather_icon" >
+                                </div>
+                                <p>Temp    : --/--</p>
+                                <p>Wind    : --/--</p>
+                                <p>Humidity: --/--</p>
+                            </li>
+                            <li>
+                                <h3>(Date)</h3>
+                                <div class="ficon">
+                                    <img src="./images/icon.png" alt="weather_icon" >
+                                </div>
+                                <p>Temp    : --/--</p>
+                                <p>Wind    : --/--</p>
+                                <p>Humidity: --/--</p>
+                            </li>
+                            <li>
+                                <h3>(Date)</h3>
+                                <div class="ficon">
+                                    <img src="./images/icon.png" alt="weather_icon" >
+                                </div>
+                                <p>Temp    : --/--</p>
+                                <p>Wind    : --/--</p>
+                                <p>Humidity: --/--</p>
+                            </li>
+                            <li>
+                                <h3>(Date)</h3>
+                                <div class="ficon">
+                                    <img src="./images/icon.png" alt="weather_icon" >
+                                </div>
+                                <p>Temp    : --/--</p>
+                                <p>Wind    : --/--</p>
+                                <p>Humidity: --/--</p>
+                            </li>   
+                        </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+      <footer>
+      </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script
