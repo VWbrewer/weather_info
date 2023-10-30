@@ -1,12 +1,19 @@
-/* Google font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
-
-* {
-font-family: 'Open Sans', sans-serif;
+/* header styling */
+h1 {
+    text-align: left;
+    background-color: rgb(126, 133, 148);
+    padding: 2%;
+    margin-bottom: 5%;
 }
 
-/* Weather icon location on the page */
-.current-weather img {
-max-width: 155px;
-margin-top: -20px;
+/* weather icon */
+img {
+    height: 70px;
+    width: 70px;
+    margin-right: 5px;
+}
+
+/* button for searching  */
+button {
+    width: 100%;
 }
